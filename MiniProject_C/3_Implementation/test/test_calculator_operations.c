@@ -1,15 +1,14 @@
 #include "unity.h"
-#include <calculator_operations.h>
+#include <gpa.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
-#define PROJECT_NAME    "Calculator"
+#include <gpa.h>
+#define PROJECT_NAME    "GPA/CGPA calculator and gradepoint predictor"
 
 /* Prototypes for all the test functions */
-void test_add(void);
-void test_subtract(void);
-void test_multiply(void);
-void test_divide(void);
+void semester();
+void grade_predictor();
+void cgpa_calculator();
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -23,17 +22,16 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_add);
-  RUN_TEST(test_subtract);
-  RUN_TEST(test_multiply);
-  RUN_TEST(test_divide);
+  RUN_TEST(semester);
+  RUN_TEST(grade_predictor);
+  RUN_TEST(cgpa_calculator);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
 /* Write all the test functions */ 
-void test_add(void) {
+void semester(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
   
   /* Dummy fail*/
