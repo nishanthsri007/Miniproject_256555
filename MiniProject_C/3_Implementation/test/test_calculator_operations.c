@@ -32,29 +32,23 @@ int main()
 
 /* Write all the test functions */ 
 void semester(void) {
-  TEST_ASSERT_EQUAL(30, add(10, 20));
+  TEST_ASSERT_EQUAL(9.0, add(, 20));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(15000, add(7500, 7500));
 }
 
-void test_subtract(void) {
+void cgpa_calculator(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(100, subtract(1000, 900));
 }
 
-void test_multiply(void) {
+void grade_pointer(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(10, multiply(2, 5));
 }
 
-void test_divide(void) {
-  TEST_ASSERT_EQUAL(0, divide(1, 0));
-  
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, divide(2, 2));
-}
