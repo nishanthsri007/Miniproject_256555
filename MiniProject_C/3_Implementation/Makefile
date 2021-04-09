@@ -1,12 +1,13 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = GPA/CGPA calculator and gradepoint predictor 
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = src/grade.c \
+src/cgpa.c \
+src/semester.c \
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
