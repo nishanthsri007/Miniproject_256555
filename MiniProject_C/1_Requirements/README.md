@@ -97,10 +97,11 @@
   4. Changing patterns
 
   ### Threats
-  1.Competitor Activities.
-  2.Academic work.
-  3.Scope creep.
-  4.Constraints.
+  
+  1. Competitor Activities
+  2. Academic work
+  3. Scope creep
+  4. Constraints
   
   
   # 4W's and 1'H
@@ -132,15 +133,15 @@
   
   ## High level Requirements
   
-  HR1.	User shall be able to save their records in a file.
-  HR2.	Data should not be lost in case of failure	Scenario.
-  HR3.	Data should always be stored when closing the system.
+  HR1.	User shall be able to save their records in a file
+  HR2.	Data should not be lost in case of failure	Scenario
+  HR3.	Data should always be stored when closing the system
 
   ## Low level Requirements
 
-  LR1. User need to search by id for Student record to be updated, if no such            record is available then "No Record Found" Message should be displayed.
-  LR2. If opening the file fails, then the system shloud prompt the message              "Unable to access file" and should not end the program execution.
-  LR3. When user Log off the system, message shall be prompted asking the user to        save new records to file before exiting or not
+  LR1. User need to search by id for Student record to be updated, if no such            record is available then "No Record Found" Message should be displayed
+  LR2. If opening the file fails, then the system shloud prompt the message              "Unable to access file" and should not end the program execution
+  LR3. When user Log off the system, message shall be prompted asking the user to        save new records to file before exiting or not.
  
  
   
