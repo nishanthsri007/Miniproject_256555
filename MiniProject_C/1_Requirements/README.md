@@ -97,10 +97,10 @@
   4. Changing patterns
 
   ### Threats
-  1.Competitor Activities
-  2.Academic work
-  3.Scope creep
-  4.Constraints
+  1.Competitor Activities.
+  2.Academic work.
+  3.Scope creep.
+  4.Constraints.
   
   
   # 4W's and 1'H
